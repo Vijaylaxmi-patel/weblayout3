@@ -132,11 +132,14 @@ footer {
 }
 /* footer section end  */
 @media screen and (max-width: 1200px) {
+  section .details {
+    padding: 0 9%;
+  }
   section .details img {
-    height: 285px;
+    height: 345px;
   }
   section .details p {
-    padding: 1%;
+    padding: 2%;
   }
 }
 /* media query start  */
@@ -260,5 +263,8 @@ footer {
   }
 }
 @media screen and (max-width: 380px) {
+  .banner .myform {
+    padding-left: 1.5%;
+  }
 }
 /* media query end */
