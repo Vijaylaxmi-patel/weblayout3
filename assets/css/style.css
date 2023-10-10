@@ -264,7 +264,7 @@ footer {
 }
 @media screen and (max-width: 380px) {
   .banner .myform {
-    padding-left: 1.5%;
+    padding-left: 0%;
   }
 }
 /* media query end */
