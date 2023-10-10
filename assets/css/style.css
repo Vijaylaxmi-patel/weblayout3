@@ -1,0 +1,254 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
+}
+/* header section start  */
+header {
+  display: flex;
+  background: #022d7c;
+  width: 100%;
+  height: auto;
+  color: #fff;
+  justify-content: space-between;
+  padding: 1% 10%;
+  position: fixed;
+}
+header h2 a:hover {
+  font-size: 105%;
+  transition: 0.2s;
+}
+/* header section end  */
+/* banner secton start  */
+.banner {
+  display: flex;
+  justify-content: space-between;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)),
+    url(../image/banner.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 700px;
+  color: #fff;
+  align-items: center;
+  padding: 0 15%;
+}
+.banner span {
+  font-size: 250%;
+  font-weight: 500;
+}
+.banner h1 {
+  font-size: 400%;
+}
+.banner aside {
+  background: #022d7c;
+  border-radius: 7px;
+  padding: 20px 10px;
+}
+.banner aside input[type] {
+  width: 100%;
+  height: 50px;
+  text-align: center;
+}
+.banner aside td {
+  padding: 4px;
+}
+.banner aside #msg {
+  height: 130px;
+}
+.banner aside #btn {
+  background: aqua;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+}
+/* banner secton end  */
+/* feature section start  */
+.feature {
+  width: 100%;
+  height: auto;
+  margin-top: 2%;
+  padding-left: 5%;
+  display: flex;
+  color: #022d7c;
+  justify-content: space-between;
+  margin-bottom: 2%;
+}
+.feature img {
+  width: 85%;
+}
+.feature div p {
+  padding-right: 60px;
+}
+/* feature section end  */
+/* about section start  */
+.about {
+  background-color: #022d7c;
+  color: #fff;
+  padding: 2% 15%;
+  text-align: center;
+  font-size: 140%;
+  text-align: center;
+  justify-content: center;
+}
+.about p {
+  margin-top: 2%;
+}
+.about button {
+  margin-top: 3%;
+  background-color: #022d7c;
+  border: 2px solid #fff;
+  padding: 1.5% 15%;
+  color: #fff;
+  font-size: 130%;
+}
+
+/* about section end  */
+/* gallery section start  */
+section .details {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 16%;
+}
+section .details img {
+  height: 400px;
+}
+section .details p {
+  padding: 8%;
+}
+/* gallery section end  */
+/* footer section start  */
+footer {
+  margin-top: 3%;
+  background-color: #022d7c;
+  color: #fff;
+  text-align: center;
+  justify-content: center;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  font-size: 130%;
+}
+/* footer section end  */
+/* media query start  */
+@media screen and (max-width: 992px) {
+  header {
+    padding: 1% 5%;
+  }
+  .banner {
+    padding: 7% 8%;
+    height: auto;
+  }
+  .teature p {
+    padding-right: 30px;
+  }
+  .about p {
+    font-size: 100%;
+  }
+  .about button {
+    padding: 1.5% 11%;
+  }
+  section .details {
+    padding: 0 8%;
+  }
+  section .details img {
+    height: 290px;
+  }
+  section .details p {
+    padding: 6%;
+  }
+}
+@media screen and (max-width: 768px) {
+  header {
+    padding: 1% 2%;
+  }
+  header h2 {
+    font-size: 95%;
+  }
+
+  .banner {
+    padding: 6% 5%;
+  }
+  .banner h1 {
+    font-size: 300%;
+  }
+  .banner span {
+    font-size: 140%;
+  }
+  .banner aside {
+    padding: 10px 6px;
+  }
+  .banner aside input[type] {
+    height: 35px;
+  }
+  .banner aside #msg {
+    height: 60px;
+  }
+  .feature p {
+    padding-right: 5px;
+  }
+  .about {
+    padding: 2% 5%;
+  }
+  .about p,
+  .about h2 {
+    font-size: 80%;
+  }
+  .about button {
+    font-size: 70%;
+  }
+  section .details {
+    padding: 0 1%;
+  }
+  section .details img {
+    height: 260px;
+  }
+  section details p {
+    padding: 0;
+    font-size: 70%;
+  }
+  footer p {
+    font-size: 90%;
+  }
+}
+@media screen and (max-width: 576px) {
+  header {
+    display: block;
+    padding: 3%;
+  }
+  .banner {
+    display: block;
+
+    text-align: center;
+  }
+  .banner main {
+    margin-top: 15%;
+  }
+  .banner aside {
+    margin-top: 15%;
+  }
+  .banner .myform {
+    padding-left: 13.5%;
+  }
+  .banner aside input[type] {
+    width: 100%;
+    height: 50px;
+    text-align: center;
+  }
+  .feature {
+    margin-top: 3%;
+    display: block;
+    padding-left: 80px;
+  }
+  .feature div {
+    margin: 3%;
+  }
+  section .details {
+    display: block;
+  }
+  section .details img {
+    width: 100%;
+  }
+}
+/* media query end */
