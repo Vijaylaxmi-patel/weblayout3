@@ -131,6 +131,14 @@ footer {
   font-size: 130%;
 }
 /* footer section end  */
+@media screen and (max-width: 1200px) {
+  section .details img {
+    height: 285px;
+  }
+  section .details p {
+    padding: 1%;
+  }
+}
 /* media query start  */
 @media screen and (max-width: 992px) {
   header {
@@ -250,5 +258,7 @@ footer {
   section .details img {
     width: 100%;
   }
+}
+@media screen and (max-width: 380px) {
 }
 /* media query end */
