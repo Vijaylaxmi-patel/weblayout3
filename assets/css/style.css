@@ -114,6 +114,7 @@ section .details {
 }
 section .details img {
   height: 400px;
+  width:450px;
 }
 section .details p {
   padding: 8%;
@@ -131,12 +132,14 @@ footer {
   font-size: 130%;
 }
 /* footer section end  */
+/* media query start  */
 @media screen and (max-width: 1200px) {
   section .details {
     padding: 0 9%;
   }
   section .details img {
-    height: 345px;
+    height: 400px;
+    width: 492px;
   }
   section .details p {
     padding: 2%;
@@ -164,7 +167,7 @@ footer {
     padding: 0 8%;
   }
   section .details img {
-    height: 290px;
+    height: 291px;
   }
   section .details p {
     padding: 6%;
@@ -214,6 +217,7 @@ footer {
   }
   section .details img {
     height: 260px;
+    width: 510px;
   }
   section details p {
     padding: 0;
